@@ -1,6 +1,6 @@
 # Clock_Divider
 > Clock divider or also called frequency divider is a circuit that takes an input signal of frequency fin and generates an output signal of frequency 
-f_{out} = \frac{f_{in}}{n}
+fout = fin / n 
 where n is an integer number
 
 
