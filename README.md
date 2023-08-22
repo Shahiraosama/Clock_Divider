@@ -20,7 +20,7 @@ where n is an integer number
 > i_clk_enable is responsible for enabling or disapling the clock divider
 
 
-> i_div_ratio is the integer n   
+> i_div_ratio is a 4-bit integer --> (n)   
 
 # outputs:
 
@@ -29,6 +29,7 @@ where n is an integer number
 # operation:
 
 
-> it's required to implement a clock divider that's able to generate different copies of frequencies when the i_clk_enable is high and when it's low it's required to out the reference frequency.
+> it's required to implement a clock divider that's able to generate different copies of frequencies
+(it divides the frequencies up to 15 )  when the i_clk_enable is high and when it's low it's required to out the reference frequency.
 
 
